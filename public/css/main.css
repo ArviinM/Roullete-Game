@@ -14,7 +14,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background: url(images/green-img.jpg);
-  overflow: hidden;
+  overflow: auto;
   margin: 0;
   font-family: 'Racing Sans One', cursive;
 }
