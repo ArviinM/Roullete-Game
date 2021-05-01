@@ -6,7 +6,7 @@ body {
     align-items: center;
     flex-direction: column;
     background: url(images/green-img.jpg);
-    overflow: scroll;
+    overflow-x: hidden;
     margin: 0;
     font-family: 'Racing Sans One', cursive;
     //background-color: #72aa00;
@@ -17,6 +17,34 @@ h1 {
     text-shadow: 5px 5px #414141;
     color: #ffffff;
     margin: 0;
+}
+
+.div-container {
+   display: flex;
+   flex-direction: column;
+   margin: 30px auto;
+   padding: 15px;
+   border-radius: 5px;
+   background-color: #d1d1d1;
+   width: 50%;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 0px 0px;
+
+   h1{
+      font-size: 2em;
+      justify-content: center;
+      color:#333333;
+      text-shadow: 0px 0px;
+      text-align: center;
+   }
+   p{
+      font-size: 1.5em;
+      justify-content: left;
+      color:#333333;
+      text-shadow: 0px 0px;
+      text-align: left;
+      margin: 5px;
+   }
 }
 
 .win {
@@ -38,6 +66,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-repeat: repeat-x;
   }
   .pieBackground {
       background-color: rgba(240, 240, 240, 1);

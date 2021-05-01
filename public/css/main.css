@@ -14,7 +14,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background: url(images/green-img.jpg);
-  overflow: scroll;
+  overflow-x: hidden;
   margin: 0;
   font-family: 'Racing Sans One', cursive;
 }
@@ -24,6 +24,44 @@ h1 {
   text-shadow: 5px 5px #414141;
   color: #ffffff;
   margin: 0;
+}
+
+.div-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 30px auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #d1d1d1;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px;
+}
+
+.div-container h1 {
+  font-size: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #333333;
+  text-shadow: 0px 0px;
+  text-align: center;
+}
+
+.div-container p {
+  font-size: 1.5em;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #333333;
+  text-shadow: 0px 0px;
+  text-align: left;
+  margin: 5px;
 }
 
 .win {
@@ -54,6 +92,7 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-repeat: repeat-x;
 }
 
 .pieBackground {
